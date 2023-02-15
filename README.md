@@ -492,8 +492,8 @@ __Throughput mode__
 # ELB and Autoscaling
 
 __Patching an AMI for an auto scaling group__, the procedure is —  
-1. Create an image out of the main patched EC2 instance
-2. Create a new launch configuration with new AMI ID
+1. Create an image out of the main patched EC2 instance.
+2. Create a new launch configuration with new AMI ID.
 3. Update auto scaling group with new launch configuration ID. 
 
 Note that AMI ID is set during creation of launch configuration and cannot be modified, so we have to create a new launch configuration.
